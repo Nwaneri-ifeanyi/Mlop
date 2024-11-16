@@ -1,5 +1,5 @@
 # requirements.txt
 
-pylint==2.15.0          # Code linting tool
-pytest==7.1.2           # Testing framework
-pytest-cov==3.0.0       # Plugin for measuring test coverage
+pylint         # Code linting tool
+pytest          # Testing framework
+pytest-cov       # Plugin for measuring test coverage
