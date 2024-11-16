@@ -1,7 +1,10 @@
-# Makefile
-
 # Install dependencies
 install:
+	pip install --upgrade pip && \
+	pip install -r requirements.txt
+
+# Install dependencies for AWS CodeBuild
+install-aws:
 	pip install --upgrade pip && \
 	pip install -r requirements.txt
 
